@@ -1,0 +1,135 @@
+
+html {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.5rem;
+    background-image: linear-gradient(20deg, #1c18fa, #86c2fa);
+}
+
+header {
+    background-color: #24252a;
+    box-shadow: 0px 3px 10px #464646;
+
+}
+
+.menu-social {
+    display: flex;
+    position:absolute;
+    top: -15px;
+}
+
+.lista {
+    display: flex;
+    align-items: center;
+    left: -140px;
+    position: relative;
+
+}
+
+.lista ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+
+.nav-1{
+    margin:0 5rem;
+    left: 40px;
+}
+
+.nav-link{
+    text-decoration: none;
+    color: #fff;
+    font-weight: 400;
+    
+}
+.nav-link:hover{
+    color: #000;
+}
+
+.tela {
+    position: fixed;
+    justify-content: center;
+    font-size: 20px;
+    color: white;
+    height: 450px;
+    width: 450px;
+    border-radius: 10px;
+    background: #191919;
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    border-radius: 20px;
+
+}
+
+div {
+    transform: translate(25%, 16%);
+}
+
+.h3-login {
+    top: -45px;
+    position: relative;
+}
+
+.info {
+    font-size: 15px;
+    position: fixed;
+    top: 83px;
+}
+
+.minifooter {
+    font-size: 15px;
+    position: fixed;
+    bottom: 30px;
+}
+
+.caixa-de-login {
+    text-align: center;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    background-color: #f9f9f9;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    top: -55px;
+    right: 53px;
+    position: relative;
+}
+
+h1 {
+    margin-bottom: 20px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input {
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.user {
+    color: black;
+}
+
+.senha {
+    color: #000;
+}
