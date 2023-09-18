@@ -23,7 +23,7 @@
 
 ## Tecnologias Utilizadas
 
-- HTML
+- HTML.
 - CSS
 - (até o momento).
   
